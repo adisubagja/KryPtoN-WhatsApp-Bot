@@ -24,7 +24,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 
         // Bot Prefix
-        const prefix = '#'
+        const prefix = '!'
         body = (type === 'chat' && body.startsWith(prefix)) ? body : ((type === 'image' && caption) && caption.startsWith(prefix)) ? caption : ''
         const command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
         const arg = body.trim().substring(body.indexOf(' ') + 1)
@@ -48,6 +48,9 @@ module.exports = msgHandler = async (client = new Client(), message) => {
 
         switch (command) {
         // Menu and TnC
+        case 'start' :
+            await client.sendText(from, 'Hai nama saya KryPtoN Bot, saya di tulis dari *Javascript*,\nsaya di ciptakan oleh Dhimas (KryPtoN) https://kry9ton.tech\nsilakan ketik !help untuk mengetahui fitur ku.')
+        break
         case 'speed':
         case 'ping':
             await client.sendText(from, `Pong!!!!\nSpeed: ${processTime(t, moment())} _Second_`)
@@ -58,7 +61,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'menu':
         case 'help':
             await client.sendText(from, menuId.textMenu(pushname))
-                .then(() => ((isGroupMsg) && (isGroupAdmins)) ? client.sendText(from, 'Menu Admin Grup: *#menuadmin*') : null)
+                .then(() => ((isGroupMsg) && (isGroupAdmins)) ? client.sendText(from, 'Menu Admin Grup: *!menuadmin*') : null)
             break
         case 'menuadmin':
             if (!isGroupMsg) return client.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup! [Group Only]', id)
@@ -198,7 +201,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'facebook':
             if (args.length !== 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
             if (!isUrl(url) && !url.includes('facebook.com')) return client.reply(from, 'Maaf, url yang kamu kirim tidak valid. [Invalid Link]', id)
-            await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/yogasakti atau mentrakteer melalui https://trakteer.id/red-emperor \nTerimakasih.', id)
+            await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/Kry9toN \nTerimakasih.', id)
             downloader.facebook(url).then(async (videoMeta) => {
                 const title = videoMeta.response.title
                 const thumbnail = videoMeta.response.thumbnail

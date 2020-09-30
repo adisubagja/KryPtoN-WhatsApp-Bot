@@ -13,10 +13,11 @@ By using this source code / bot, you agree to the following Terms and Conditions
     • burning forest/ deforestation
     • hate speech or discrimination based on age, sex, gender identity, race, sexuality, religion, nationality
 
-Source Code BOT: https://github.com/YogaSakti/imageToSticker
+Base Source Code BOT : https://github.com/YogaSakti/imageToSticker
+Source Code BOT : https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot
 NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
 
-Best regards, Yoga Sakti.`
+Best Dhimas (KryPtoN).`
 }
 
 exports.textMenu = (pushname) => {
@@ -25,30 +26,30 @@ Hi, ${pushname || ''}! 👋️
 Here are some of the features of this bot! ✨
 
 Sticker Maker:
-1. *#sticker*
-To convert an image into a sticker, send the image with the caption #sticker or reply to the image that has been sent with #sticker.
+1. *!sticker*
+To convert an image into a sticker, send the image with the caption !sticker or reply to the image that has been sent with !sticker.
 
-2. *#stickers* _<Image Url>_
+2. *!stickers* _<Image Url>_
 To change the image from the url to a sticker.
 
-3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
+3. *!gifsticker* _<Giphy URL>_ / *!stickergif* _<Giphy URL>_
 To turn a gif into a sticker (Giphy only)
 
 Downloader:
-1. *#tiktok* _<post / video url>_
+1. *!tiktok* _<post / video url>_
 Will return video tiktok.
 
-2. *#fb* _<post / video url>_
+2. *!fb* _<post / video url>_
 Will return the Facebook video download link.
 
-3. *#ig* _<post / video url>_
+3. *!ig* _<post / video url>_
 Will return the Instagram video download link.
 
-4. *#twt* _<post / video url>_
+4. *!twt* _<post / video url>_
 Will return the Twitter video download link.
 
 Etc:
-1. *#tnc*
+1. *!tnc*
 Displays Bot Terms and Conditions.
 
 Hope you have a great day!✨`
@@ -59,15 +60,15 @@ exports.textAdmin = () => {
 ⚠ [ *Admin Group Only* ] ⚠ 
 Here are some of the group admin features included in this bot!
 
-1. *#kick* @user
+1. *!kick* @user
 Removing members from the group (can be more than 1).
 
-2. *#promote* @user
+2. *!promote* @user
 Promote members to group admins.
 
-3. *#demote* @user
+3. *!demote* @user
 Demote Group admins.
 
-3. *#tagall*
+3. *!tagall*
 Mention of all group members.`
 }
