@@ -1,6 +1,6 @@
 FROM node:lts
 
-WORKDIR /usr/src/app
+WORKDIR /home/wabot
 
 COPY package*.json ./
 
@@ -22,5 +22,11 @@ ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils 
 && apt autoremove --yes
 
 EXPOSE 8080
+
+#
+# Clone repo and prepare working directory
+#
+RUN git clone -b master https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot /home/wabot
+
 
 CMD ["npm", "start"]
