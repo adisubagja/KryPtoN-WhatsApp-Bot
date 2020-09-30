@@ -226,11 +226,10 @@ module.exports = msgHandler = async (client = new Client(), message) => {
             if (args.length != 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
             await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/Kry9toN \nTerimakasih.', id)
             const pertanyaan = quotedMsg.type == 'chat' ? quotedMsg.body : quotedMsg.type == 'image' ? quotedMsg.caption : ''
-            edukasi.brainly(pertanyaan, args[0]).then(result => {
-                let i = 1
-                result.map(({ title, url }) => {
-                    jawaban = `${i++}. ${title}\nKlik Disini: ${url}\n`
-                })
+            edukasi.brainly(query).then(async (result) => {
+                var title = result.title
+                var url = result.url
+                const jawaban = `${title}\nKlik Disini: ${url}\n`
                 .then((jawaban) => client.reply(from, jawaban))
                 .catch(() => client.reply(from, 'Error, Pertanyaan mu tidak ada di database kami.'))
             })

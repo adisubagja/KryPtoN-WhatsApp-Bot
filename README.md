@@ -1,7 +1,7 @@
 <div align="center">
  
 # Whatsapp Bot - sticker creator
-[![Codefactor](https://www.codefactor.io/repository/github/yogasakti/imagetosticker/badge)](https://www.codefactor.io/repository/github/yogasakti/imagetosticker)
+[![CodeFactor](https://www.codefactor.io/repository/github/kry9ton/krypton-whatsapp-bot/badge)](https://www.codefactor.io/repository/github/kry9ton/krypton-whatsapp-bot)
 <details>
  <summary>🥟 Help me!</summary>
 
@@ -12,9 +12,11 @@
  [Paypal.me](https://paypal.me/yshputra)
  
 </details>
-</div>
 
-[Heroku](https://heroku.com/deploy?template=https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/tree/master)
+
+[![Heroku](https://heroku.com/deploy?template=https://github.com/gregsadetsky/heroku-ci-badge)](https://heroku.com/deploy?template=https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/tree/master)
+
+</div>
 
 ## Features
 
