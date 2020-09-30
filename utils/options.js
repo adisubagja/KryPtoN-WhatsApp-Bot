@@ -1,4 +1,4 @@
-const fs = require('fs')
+//const fs = require('fs')
 /**
  * Get Client Options
  * @param  {Function} start function

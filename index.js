@@ -40,7 +40,7 @@ const start = (client = new Client()) => {
             }))
 
     client.onRemovedFromGroup((data) => {
-        // console.log(data)
+         console.log(data)
     })
 
     // listen paricipant event on group (wellcome message)
