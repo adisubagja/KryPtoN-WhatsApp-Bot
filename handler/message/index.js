@@ -225,7 +225,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'brainly':
             if (args.length === 0) return client.reply(from, 'Harap masukan pertanyaan yang di cari!', id)
             await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/Kry9toN \nTerimakasih.', id)
-            edukasi.brainly(args)
+            edukasi.brainly(isCmd)
                 .then((result) => client.reply(from, result, id))
                 .catch(() => client.reply(from, 'Error, Pertanyaan mu tidak ada di database kami.', id))
             break
