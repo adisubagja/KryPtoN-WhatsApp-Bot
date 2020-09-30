@@ -225,10 +225,9 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'brainly':
             if (args.length != 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
             await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/Kry9toN \nTerimakasih.', id)
-            edukasi.brainly(args[0]).then((result)
-                .then((result) => client.reply(from, result))
+            edukasi.brainly(args[0])
+                .then((result) => client.sendText(from, result))
                 .catch(() => client.reply(from, 'Error, Pertanyaan mu tidak ada di database kami.'))
-            )
             break
         // Other Command
         case 'meme':
