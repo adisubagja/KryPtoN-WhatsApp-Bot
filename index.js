@@ -45,7 +45,7 @@ const start = (client = new Client()) => {
 
     // listen paricipant event on group (wellcome message)
     client.onGlobalParicipantsChanged((event) => {
-        // if (event.action === 'add') client.sendTextWithMentions(event.chat, `Hello, Welcome to the group @${event.who.replace('@c.us', '')} \n\nHave fun with us✨`)
+         if (event.action === 'add') client.sendTextWithMentions(event.chat, `Hello, Welcome to the group @${event.who.replace('@c.us', '')} \n\nHave fun with us✨`)
     })
 
     client.onIncomingCall((callData) => {
