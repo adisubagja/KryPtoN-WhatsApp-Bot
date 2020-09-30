@@ -39,10 +39,6 @@ Penggunaan:
 Untuk merubah gif menjadi sticker (Giphy Only)
 Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
 
-4. *!meme* _<teks atas>_ | _<teks bawah>_
-Untuk membuat sticker meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*!meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
-
 Downloader:
 1. *!tiktok* _<tiktok url>_
 Untuk mengunduh video dari video tiktok.
@@ -60,27 +56,33 @@ Penggunaan: kirim pesan dengan format *!ig https://www.instagram.com/p/BPOd1vhDM
 Untuk mengunduh photo dan video dari Twitter.
 Penggunaan: kirim pesan dengan format *!twt https://twitter.com/ntsana_/status/1306108656887324672*
 
-Lain-lain:
+Edukasi:
+
 1. *!translate* _<kode bahasa>_
 Untuk mengartikan pesan menjadi bahasa yang ditentukan.
 Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*!translate id*_ <- id adalah kode bahasa. kode bahasa dapat dilihat di *https://bit.ly/33FVldE*
 
-2. *!resi* _<kurir>_ _<nomer resi>_
+2. *!brainly* _<pertanyaan>_
+Untuk mencari jawaban tugas sekolah.
+Penggunaan: Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di brainly*
+
+Lain-lain:
+1. *!resi* _<kurir>_ _<nomer resi>_
 Untuk memeriksa status pengiriman barang, daftar kurir: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
 Penggunaan: kirim pesan dengan format _*!resi jne 1238757632*_
 
-3. *!meme* _<teks atas>_ | _<teks bawah>_
+2. *!meme* _<teks atas>_ | _<teks bawah>_
 Untuk membuat meme dengan teks atas dan bawah
 Penggunaan: kirim gambar dengan caption _*!meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
 
-4. *!ceklokasi*
+3. *!ceklokasi*
 Cek lokasi penyebaran covid-19 di daerah sekitarmu (kelurahan).
 Penggunaan: kirimkan lokasimu lalu balas/quote/reply lokasi yang kamu kirim dengan _*!ceklokasi*_
 
-5. *!tnc*
+4. *!tnc*
 Menampilkan Syarat dan Kondisi Bot.
 
-6. *!donasi*
+5. *!donasi*
 menampilkan informasi donasi.
 
 Hope you have a great day!✨`
