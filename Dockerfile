@@ -1,14 +1,5 @@
 FROM node:lts
 
-WORKDIR /home/wabot
-
-COPY package*.json ./
-
-RUN npm install
-RUN npm install --only=dev --ignore-scripts
-
-COPY . .
-
 RUN set -x \
 && apt-get update \
 && apt-get install gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 \
@@ -27,6 +18,9 @@ EXPOSE 8080
 # Clone repo and prepare working directory
 #
 RUN git clone -b master https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot /home/wabot
+WORKDIR /home/wabot
 
+RUN npm install
+RUN npm install --only=dev --ignore-scripts
 
 CMD ["npm", "start"]
