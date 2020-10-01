@@ -62,8 +62,8 @@ This project require NodeJS v12 (Ubuntu 20.04+).
 Clone this project
 
 ```bash
-> git clone https://github.com/YogaSakti/imageToSticker.git
-> cd imageToSticker
+> git clone https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot
+> cd KryPtoN-WhatsApp-Bot
 ```
 
 Install the dependencies:
