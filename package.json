@@ -4,12 +4,16 @@
   "description": "KryPtoN Whatsapp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "changelog": "auto-changelog -p && git add CHANGELOG.md"
   },
   "author": "KryPtoN",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot"
+  },
+  "auto-changelog": {
+    "commitLimit": false
   },
   "bugs": {
     "url": "https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/issues"
@@ -28,7 +32,7 @@
     "sharp": "^0.26.1",
     "tiktok-scraper": "^1.3.3",
     "video-url-link": "git+https://github.com/YogaSakti/video-url-link.git",
-    "needle": "^2.5.0"
+    "auto-changelog": "^2.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
