@@ -56,7 +56,7 @@
 
 ## Getting Started
 
-This project require NodeJS v12.
+This project require NodeJS v12 (Ubuntu 20.04+).
 
 ### Install
 Clone this project
@@ -80,6 +80,15 @@ Install the dependencies:
 ```
 
 after running it you need to scan the qr
+
+## Before deoloy heroku
+
+You must run this bot on your PC/laptop to generate a session
+after being authorized, in your folder there will be a file called
+```
+Imperial.data.json
+```
+please copy on the `sessions` folder with the same name (don't change it)
 
 ## Troubleshooting
 Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
