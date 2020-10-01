@@ -2,7 +2,7 @@
  
 # Whatsapp Bot - sticker creator
 [![CodeFactor](https://www.codefactor.io/repository/github/kry9ton/krypton-whatsapp-bot/badge)](https://www.codefactor.io/repository/github/kry9ton/krypton-whatsapp-bot)
-![Version](https://img.shields.io/badge/version%20K--wa%20Bot-v.1.0.0-brightgreen)
+![Version](https://img.shields.io/badge/version%20K--wa%20Bot-v1.0.0-brightgreen)
 
 
 [![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/tree/master)
