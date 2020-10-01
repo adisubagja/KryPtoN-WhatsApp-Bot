@@ -11,14 +11,14 @@
 
 ## Features
 
-| Sticker Creator |                Feature             |
-| :-------------: | :--------------------------------: |
-|       ✅        | Send Photo with Caption            |
-|       ✅        | Reply A Photo                      |
-|       ✅        | Image Url                          |
-|       ✅        | Animated sticker using giphy url   |
-|       https://bit.ly/3hmgD4R       | sticker with no background       |
-|       https://bit.ly/3hmgD4R       | sticker meme      |
+| Sticker Creator|                Feature                          |
+| :------------: | :---------------------------------------------: |
+|       ✅       | Send Photo with Caption                         |
+|       ✅       | Reply A Photo                                   |
+|       ✅       | Image Url                                       |
+|       ✅       | Animated sticker using giphy url                |
+|       WIP      | sticker with no background                      |
+|       WIP      | sticker meme                                    |
 
 | Downloader     |                     Feature                     |
 | :------------: | :---------------------------------------------: |
@@ -31,6 +31,7 @@
 | :------------: | :---------------------------------------------: |
 |       ✅       |   Translate text (quote only)                   |
 |       ✅       |   Brainly search engine                         |
+|       WIP      |   Wiki search engine                            |
 
 | Other          |                     Feature                     |
 | :------------: | :---------------------------------------------: |
@@ -45,7 +46,7 @@
 |       ✅       |   Demote User                                   |
 |       ✅       |   Kick User                                     |
 |       ✅       |   Delete bot message                            |
-|       https://bit.ly/3hmgD4R        |   Mention All User         |
+|       WIP      |   Mention All User                              |
 
 ## To-Do
  - Add More Feature
