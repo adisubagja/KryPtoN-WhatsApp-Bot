@@ -2,58 +2,49 @@
  
 # Whatsapp Bot - sticker creator
 [![CodeFactor](https://www.codefactor.io/repository/github/kry9ton/krypton-whatsapp-bot/badge)](https://www.codefactor.io/repository/github/kry9ton/krypton-whatsapp-bot)
-<details>
- <summary>🥟 Help me!</summary>
 
- [Saweria](https://saweria.co/donate/yogasakti)
- 
- [Trakteer](https://trakteer.id/red-emperor)
- 
- [Paypal.me](https://paypal.me/yshputra)
- 
-</details>
-
-
-[![Heroku](https://heroku.com/deploy?template=https://github.com/gregsadetsky/heroku-ci-badge)](https://heroku.com/deploy?template=https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/tree/master)
+![Version](https://img.shields.io/badge/version%20K--wa%20Bot-v.1.0.0-brightgreen)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/tree/master)
 
 </div>
 
 ## Features
 
-| Sticker Creator |                Feature           |
-| :-----------: | :--------------------------------: |
-|       ✅       | Send Photo with Caption          |
-|       ✅       | Reply A Photo                    |
-|       ✅       | Image Url                        |
-|       ✅       | Animated sticker using giphy url |
+| Sticker Creator |                Feature             |
+| :-------------: | :--------------------------------: |
+|       ✅        | Send Photo with Caption            |
+|       ✅        | Reply A Photo                      |
+|       ✅        | Image Url                          |
+|       ✅        | Animated sticker using giphy url   |
 |       https://bit.ly/3hmgD4R       | sticker with no background       |
 |       https://bit.ly/3hmgD4R       | sticker meme      |
 
-
-| Downloader |                     Feature                |
+| Downloader     |                     Feature                     |
 | :------------: | :---------------------------------------------: |
-|       ✅        |   Tiktok Downloader (No WM & WM)              |
-|       ✅        |   Twitter Video Downloader                    |
-|       ✅        |   Facebook Video Downloader (SD & HD)         |
-|       ✅      |   Instagram Video Downloader                  |
+|       ✅       |   Tiktok Downloader (No WM & WM)                |
+|       ✅       |   Twitter Video Downloader                      |
+|       ✅       |   Facebook Video Downloader (SD & HD)           |
+|       ✅       |   Instagram Video Downloader                    |
 
-
-| Other  |                     Feature                     |
+| Edukasi        |                     Feature                     |
 | :------------: | :---------------------------------------------: |
-|       ✅        |   Create Custom meme (top text & bottom text)  |
-|       ✅        |   Translate text (quote only)                  |
-|       ✅        |   check data on the spread of Covid-19 in certain locations|
-|       ✅        |   Check Shipping info (indonesia only)         |
-|      BETA        |   Anti Spam                                   |
+|       ✅       |   Translate text (quote only)                   |
+|       ✅       |   Brainly search engine                         |
 
-
-| Grup Only  |                     Feature                     |
+| Other          |                     Feature                     |
 | :------------: | :---------------------------------------------: |
-|       ✅        |   Promote User                  |
-|       ✅        |   Demote User                   |
-|       ✅        |   Kick User                     |
-|       ✅        |   Delete bot message            |
-|       https://bit.ly/3hmgD4R        |   Mention All User      |
+|       ✅       |   Create Custom meme (top text & bottom text)   |
+|       ✅       |   check data on the spread of Covid-19 in certain locations|
+|       ✅       |   Check Shipping info (indonesia only)          |
+|      BETA      |   Anti Spam                                     |
+
+| Grup Only      |                     Feature                     |
+| :------------: | :---------------------------------------------: |
+|       ✅       |   Promote User                                  |
+|       ✅       |   Demote User                                   |
+|       ✅       |   Kick User                                     |
+|       ✅       |   Delete bot message                            |
+|       https://bit.ly/3hmgD4R        |   Mention All User         |
 
 ## To-Do
  - Add More Feature
@@ -96,3 +87,11 @@ Fix Stuck on linux, install google chrome stable:
 > wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 > sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
+
+## Donate
+
+### Buy me coffee
+[Saweria](https://saweria.co/donate/Kry9toN)
+ 
+[Paypal.me](https://www.paypal.me/KomodoOS)
+ 
