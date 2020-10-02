@@ -97,7 +97,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                     ? client.sendText(from, 'Maaf, link yang kamu kirim tidak memuat gambar. [No Image]')
                     : client.reply(from, 'Here\'s your sticker')).then(() => console.log(`Sticker Processed for ${processTime(t, moment())} Second`))
             } else {
-                await client.reply(from, 'Tidak ada gambar! Untuk membuka daftar perintah kirim #menu [Wrong Format]', id)
+                await client.reply(from, 'Tidak ada gambar! Untuk membuka daftar perintah kirim !menu [Wrong Format]', id)
             }
             break
         }
@@ -243,7 +243,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                     .then((serialized) => console.log(`Sukses Mengirim File dengan id: ${serialized} diproses selama ${processTime(t, moment())}`))
                     .catch((err) => console.error(err))
             } else {
-                await client.reply(from, 'Tidak ada gambar! Untuk membuka cara penggnaan kirim #menu [Wrong Format]', id)
+                await client.reply(from, 'Tidak ada gambar! Untuk membuka cara penggnaan kirim !menu [Wrong Format]', id)
             }
             break
         case 'resi':
