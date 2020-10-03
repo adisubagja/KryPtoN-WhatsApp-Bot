@@ -43,7 +43,7 @@
     "remove.bg": "^1.3.0",
     "sharp": "^0.26.1",
     "tiktok-scraper": "^1.3.3",
-    "video-url-link": "^0.1.4",
+    "video-url-link": "git+https://github.com/YogaSakti/video-url-link.git",
     "auto-changelog": "^2.2.1",
     "release-it": "^13.5.2"
   },
