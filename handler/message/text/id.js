@@ -66,6 +66,10 @@ Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*!translat
 Untuk mencari jawaban tugas sekolah.
 Penggunaan: Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di brainly*
 
+3. *!wiki* _<pertanyaan>_
+Untuk mencari di wikipedia.
+Penggunaan: Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di wiki*
+
 Lain-lain:
 1. *!resi* _<kurir>_ _<nomer resi>_
 Untuk memeriksa status pengiriman barang, daftar kurir: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
