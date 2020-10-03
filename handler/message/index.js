@@ -238,6 +238,22 @@ module.exports = msgHandler = async (client = new Client(), message) => {
 
             })
             break
+        case 'ytmp4' :
+            if (args.length !== 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
+            if (!isUrl(url) && !url.includes('youtube.com')) return client.reply(from, 'Maaf, url yang kamu kirim tidak valid. [Invalid Link]', id)
+            await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/Kry9toN \nTerimakasih.', id)
+            downloader.ytmp4(url).then(async (ytMetav) => {
+                const title = ytMetav.title
+                const thumbnail = ytMetav.thumb
+                const links = ytMetav.result
+                const filesize = ytMetav.filesize
+                const res = ytMetav.resolution
+                if (Number(filesize.split(' MB')[0]) >= 40.00) return reject('Maaf durasi video sudah melebihi batas maksimal !')
+                client.sendFileFromUrl(from, thumbnail, 'thumbnail.jpg', `Judul: ${title}\nUkuran File: ${filesize}\nResolusi: ${res}\n\nSilakan di tunggu lagi proses boss....`, null, null, true)
+                await client.sendFileFromUrl(from, links, `${title}.mp4`, null, null, true)
+                .catch(() => client.reply(from, 'Terjadi kesalahan mungkin link yang anda kirim tidak valid!', id))
+          })
+          break
         // Education Command
         case 'brainly':
             if (args.length === 0) return client.reply(from, 'Harap masukan pertanyaan yang di cari!', id)
