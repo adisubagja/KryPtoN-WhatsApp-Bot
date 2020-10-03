@@ -231,8 +231,10 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                 const thumbnail = ytMeta.thumb
                 const links = ytMeta.result
                 const filesize = ytMeta.filesize
+                const status = ytMeta.status
+                if ( status !== 200) client.reply(from, 'Maaf, link anda tidak valid.', id)
                 if (Number(filesize.split(' MB')[0]) >= 30.00) return reject('Maaf durasi video sudah melebihi batas maksimal !')
-                client.sendFileFromUrl(from, thumbnail, 'thumbnail.jpg', `Judul: ${title}\nUkuran File: ${filesize}\n\nSilakan di tunggu lagi proses boss....`, null, null, true)
+                client.sendFileFromUrl(from, thumbnail, 'thumbnail.jpg', `Judul: ${title}\nUkuran File: ${filesize}\n\nSilakan di tunggu lagi proses boss....`, null, true)
                 await client.sendFileFromUrl(from, links, `${title}.mp3`, null, null, true)
                 .catch(() => client.reply(from, 'Terjadi kesalahan mungkin link yang anda kirim tidak valid!', id))
 
@@ -248,8 +250,10 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                 const links = ytMetav.result
                 const filesize = ytMetav.filesize
                 const res = ytMetav.resolution
+                const status = ytMetav.status
+                if ( status !== 200) client.reply(from, 'Maaf, link anda tidak valid.', id)
                 if (Number(filesize.split(' MB')[0]) >= 40.00) return reject('Maaf durasi video sudah melebihi batas maksimal !')
-                client.sendFileFromUrl(from, thumbnail, 'thumbnail.jpg', `Judul: ${title}\nUkuran File: ${filesize}\nResolusi: ${res}\n\nSilakan di tunggu lagi proses boss....`, null, null, true)
+                client.sendFileFromUrl(from, thumbnail, 'thumbnail.jpg', `Judul: ${title}\nUkuran File: ${filesize}\nResolusi: ${res}\n\nSilakan di tunggu lagi proses boss....`, null, true)
                 await client.sendFileFromUrl(from, links, `${title}.mp4`, null, null, true)
                 .catch(() => client.reply(from, 'Terjadi kesalahan mungkin link yang anda kirim tidak valid!', id))
           })
