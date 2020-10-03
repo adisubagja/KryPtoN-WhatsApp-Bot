@@ -31,7 +31,7 @@
 | :------------: | :---------------------------------------------: |
 |       ✅       |   Translate text (quote only)                   |
 |       ✅       |   Brainly search engine                         |
-|       WIP      |   Wiki search engine                            |
+|       ✅       |   Wiki search engine                            |
 
 | Other          |                     Feature                     |
 | :------------: | :---------------------------------------------: |
