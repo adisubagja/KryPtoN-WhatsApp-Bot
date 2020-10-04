@@ -26,6 +26,8 @@
 |       ✅       |   Twitter Video Downloader                      |
 |       ✅       |   Facebook Video Downloader (SD & HD)           |
 |       ✅       |   Instagram Video Downloader                    |
+|       ✅       |   Youtube MP3  Downloader                       |
+|       BUG      |   Youtube MP4 Downloader                        |
 
 | Edukasi        |                     Feature                     |
 | :------------: | :---------------------------------------------: |
