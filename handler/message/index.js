@@ -2,7 +2,7 @@ require('dotenv').config()
 const { decryptMedia, Client } = require('@open-wa/wa-automate')
 const moment = require('moment-timezone')
 moment.tz.setDefault('Asia/Jakarta').locale('id')
-const { downloader, cekResi, removebg, urlShortener, meme, translate, getLocationData, edukasi } = require('../../lib')
+const { downloader, cekResi, removebg, urlShortener, meme, translate, getLocationData, edukasi, igstalk } = require('../../lib')
 const { msgFilter, color, processTime, isUrl } = require('../../utils')
 const mentionList = require('../../utils/mention')
 const { uploadImages } = require('../../utils/fetcher')
@@ -321,6 +321,22 @@ module.exports = msgHandler = async (client = new Client(), message) => {
             }
             const text = `*CEK LOKASI PENYEBARAN COVID-19*\nHasil pemeriksaan dari lokasi yang anda kirim adalah *${zoneStatus.status}* ${zoneStatus.optional}\n\nInformasi lokasi terdampak disekitar anda:\n${data}`
             client.sendText(from, text)
+            break
+        case 'igstalk':
+            if (args.length !== 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
+            await client.reply(from, '_Scraping Metadata..._ \n\nTerimakasih telah menggunakan bot ini, kamu dapat membantu pengembangan bot ini dengan menyawer melalui https://saweria.co/donate/Kry9toN \nTerimakasih.', id)
+            igstalk(args[0]).then(async (igMeta) => {
+              if ( igMeta.status !== 200) client.reply(from, 'Maaf, username yang anda kirim tidak valid.', id)
+              const foto = igMeta.Profile_pic
+              const nama = igMeta.Name
+              const username = igMeta.Username
+              const bio = igMeta.Biodata
+              const follower = igMeta.Jumlah_Followers
+              const following = igMeta.Jumlah_Following
+              const post = igMeta.Jumlah_Following
+              await client.sendFileFromUrl(from, foto, 'thumbnail.jpg', `Nama: ${nama}\nUsername: ${username}\nBio: ${bio}\nJumlah folower: ${follower}\nJumlah following: ${following}\nJumlah post: ${post}`, null, true)
+              .catch(() => client.reply(from, 'Terjadi kesalahan mungkin username yang anda kirim tidak valid!', id))
+            })
             break
         // Group Commands (group admin only)
         case 'kick':
