@@ -60,6 +60,10 @@ Penggunaan: kirim pesan dengan format *!twt https://twitter.com/ntsana_/status/1
 Untuk mengunduh musik dari Youtube.
 Penggunaan: kirim pesan dengan format *!ytmp3 https://youtu.be/cIYdfWFsMXw*
 
+6. *!ytmp4* _<twitter post url>_
+Untuk mengunduh video dari Youtube.
+Penggunaan: kirim pesan dengan format *!ytmp4 https://youtu.be/cIYdfWFsMXw*
+
 Edukasi:
 
 1. *!translate* _<kode bahasa>_
