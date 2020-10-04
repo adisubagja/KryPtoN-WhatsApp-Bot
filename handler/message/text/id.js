@@ -93,6 +93,9 @@ Menampilkan Syarat dan Kondisi Bot.
 5. *!donasi*
 menampilkan informasi donasi.
 
+6. *!update, !channel*
+Cek update bot ini
+
 Hope you have a great day!✨`
 }
 
