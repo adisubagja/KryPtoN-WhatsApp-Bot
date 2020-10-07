@@ -25,7 +25,9 @@
 |       ✅       |   Tiktok Downloader (No WM & WM)                |
 |       ✅       |   Twitter Video Downloader                      |
 |       ✅       |   Facebook Video Downloader (SD & HD)           |
-|       ✅       |   Instagram Video Downloader                    |
+|       BUG       |   Instagram Video Downloader                    |
+|       ✅       |   Youtube MP3  Downloader                       |
+|       ✅       |   Youtube MP4 Downloader                        |
 
 | Edukasi        |                     Feature                     |
 | :------------: | :---------------------------------------------: |

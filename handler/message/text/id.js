@@ -56,6 +56,14 @@ Penggunaan: kirim pesan dengan format *!ig https://www.instagram.com/p/BPOd1vhDM
 Untuk mengunduh photo dan video dari Twitter.
 Penggunaan: kirim pesan dengan format *!twt https://twitter.com/ntsana_/status/1306108656887324672*
 
+5. *!ytmp3* _<twitter post url>_
+Untuk mengunduh musik dari Youtube.
+Penggunaan: kirim pesan dengan format *!ytmp3 https://youtu.be/cIYdfWFsMXw*
+
+6. *!ytmp4* _<twitter post url>_
+Untuk mengunduh video dari Youtube.
+Penggunaan: kirim pesan dengan format *!ytmp4 https://youtu.be/cIYdfWFsMXw*
+
 Edukasi:
 
 1. *!translate* _<kode bahasa>_
@@ -64,11 +72,11 @@ Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*!translat
 
 2. *!brainly* _<pertanyaan>_
 Untuk mencari jawaban tugas sekolah.
-Penggunaan: Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di brainly*
+Penggunaan: *Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di brainly*
 
 3. *!wiki* _<pertanyaan>_
 Untuk mencari di wikipedia.
-Penggunaan: Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di wiki*
+Penggunaan: *Balas/quote/reply pesan/pertanyaan yang ingin kamu cari di wiki*
 
 Lain-lain:
 1. *!resi* _<kurir>_ _<nomer resi>_
@@ -88,6 +96,9 @@ Menampilkan Syarat dan Kondisi Bot.
 
 5. *!donasi*
 menampilkan informasi donasi.
+
+6. *!update, !channel*
+Cek update bot ini
 
 Hope you have a great day!✨`
 }
